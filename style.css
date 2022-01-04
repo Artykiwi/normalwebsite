@@ -1,56 +1,55 @@
 body{
-    background-image:url(background.jpg) ;
+    background-image: url(brick.jpg);
     background-size: cover;
     text-align: center;
 }
 h1{
-    font-family: Verdana;
-    color: #FF69B4;
-    font-size: 300%;
+    color: grey;
+    font-size: 500%;
+    text-align: center;
 }
 p{
     font-family: arial;
-    color: #FF69B4;
+    color: grey;
 }
 img{
     margin: 20px;;
-    border: 5px solid hotpink;
+    border: 5px solid grey;
 }
 a{
-    color:#FF69B4;
     text-decoration: none;
     font-size: 30px;
-    font-family: Verdana;
+    color: grey;
+    border: solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 a:link{
-    color: #FF69B4;
+    font-family: verdana;
+
 }
 a:hover{
-    color: pink;
+    color:black;
+    border: solid black;
+    
 }
 #container{
     width: 750px;
     margin-right: auto;
     margin-left: auto;
-    border: 5px solid #FF69B4;
+    border: 5px solid grey;
     padding: 20px;
     background-color: white;
     margin-top: 50px;
 }
 hr{
     height: 5px;
-    color: #FF69B4;
-    background-color: #FF69B4;
+    background-color:grey;
 }
-button{
-    background-color: orangered;
-    padding: 30px 60px;
-    font-size: 35px;
-    color: hotpink;
-    border-radius: 10px;
-    border: 5px solid hotpink;
-}
-button:hover{
-    background-color: pink;
-    cursor: pointer;
+h2{
+    font-size: xx-large;
+    font-family: arial;
+    color: grey;
 }
